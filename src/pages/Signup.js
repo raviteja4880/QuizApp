@@ -18,7 +18,7 @@ function Signup() {
         password,
       });
 
-      navigate('/home');
+      navigate('/');
     } catch (err) {
       alert('Signup failed: ' + (err.response?.data?.message || err.message));
     }
